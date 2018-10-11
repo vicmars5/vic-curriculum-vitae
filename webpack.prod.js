@@ -56,6 +56,22 @@ module.exports = {
         ]
       },
       {
+        test: /\.html$/,
+        use: [{
+          loader: 'html-loader',
+          options: {
+            minimize: true
+          }
+        }]
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: "fonts/[name].[ext]",
+        }
+      },
+      {
         // Load all images as base64 encoding if they are smaller than 8192 bytes
         test: /\.(png|jpg|gif|svg)$/,
         use: [
