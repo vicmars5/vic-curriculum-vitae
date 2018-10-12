@@ -1,6 +1,7 @@
 
 # My CV
 
+See [preview](https://vicmars5.github.io/)
 ![Preview](docs/preview.png?raw=true "CV")
 
 Run:
