@@ -12,39 +12,43 @@
   <div class="container">
     <div class="card shadow my-5">
       <div class="card-header border-0">
-        <div class="text-center">
-          <img
-            src="../assets/profile.jpg"
-            class="my-3 rounded-circle shadow"
-            style="width: 200px; height: 200px"
-          />
-        </div>
-        <h1 class="text-center">
-          Victor Agustin Diaz Mendez
-        </h1>
-        <p class="text-center">
-          Software Developer
-          <b>
-            <i class="fa fa-birthday-cake"></i>
-            21 years
-            <i class="fa fa-map-marker"></i>
-            Guadalajara, Jal.
-          </b>
-        </p>
-        <div class="text-center">
-          <a href="https://vicmars5.github.io/" class="pr-2">
-            <i class="fa fa-globe"></i>
-          </a>
-          <a href="https://github.com/vicmars5" class="pr-2">
-            <i class="fa fa-github"></i>
-          </a>
-          <a href="https://linkedin.com/in/victoragustindiaz/" class="pr-2">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a href="mailto:mars.vic5@gmail.com" class="pr-2">
-            <i class="fa fa-envelope"></i>
-            mars.vic5@gmail.com
-          </a>
+        <div class="row">
+          <div class="text-center col-lg-4">
+            <img
+              src="../assets/profile.jpg"
+              class="my-3 rounded-circle shadow"
+              style="width: 160px"
+            />
+          </div>
+          <div class="col-lg-8 pt-4">
+            <h1 class="text-left">
+              Victor Agustin Diaz Mendez
+            </h1>
+            <p class="text-left">
+              Software Developer
+              <b>
+                <i class="fa fa-birthday-cake"></i>
+                21 years
+                <i class="fa fa-map-marker"></i>
+                Guadalajara, Jal.
+              </b>
+            </p>
+            <div class="text-left">
+              <a href="https://vicmars5.github.io/" class="pr-2">
+                <i class="fa fa-globe"></i>
+              </a>
+              <a href="https://github.com/vicmars5" class="pr-2">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/victoragustindiaz/" class="pr-2">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="mailto:mars.vic5@gmail.com" class="pr-2">
+                <i class="fa fa-envelope"></i>
+                mars.vic5@gmail.com
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card-body border-0">
@@ -57,7 +61,7 @@
             </a></small>
           </h3>
           <p>
-            August 2015 - December 2019 (7 semesters complete)
+            August 2015 - December 2019 (8 semesters complete)
           </p>
           <h3>
             Programer Specialization
@@ -80,11 +84,19 @@
             </a></small>
           </h3>
           <div>
-            May 2017 - Today
+            May 2017 - December 2018 
           </div>
-          <p>
-            Skycatch is the leading industrial data collection and analytics company, focused on indexing and extracting critical information from the physical world. We use a combination of hardware, software, and artificial intelligence to deliver high precision data at unprecedented speed and ease of use. Built for enterprise, our turnkey solutions are deployed across global project sites with the world’s largest construction, mining, and energy companies.
-          </p>
+          <div class="description">
+            Worked in many projects with different responsibilities:
+            <ul>
+              <li>
+                Skycatch map viewer. Worked improving the user experience in a project with really old legacy cold, using AngularJS as a web framework. Some of the modules were built using NodeJS 0.10.x.
+              </li>
+              <li>
+                EDGE1 (The main product of the company): EDGE1 is an IoT device deployed in extremest conditions environment with no internet and poor 3G signal. Worked improving the user experience of the app and have the frontend ownership for 6 months, and worked another 6 in different tasks. Web technologies: React, Redux, Socket IO. Also helped in the backend helping with shell injection issues and improving how we transferred files. Also automated the execution of Docker containers for map processing.
+              </li>
+            </ul>
+          </div>
           <h3>
             JR Software Engineer
             <small>
@@ -92,20 +104,23 @@
             </small>
           </h3>
           <div>
-            April 2016
+            April 2016 - May 2017
           </div>
           <p>
-            I worked using NodeJS to build IoT prototypes for CONACYT (Mexican goverment dependency focused on science research).
+            Worked in a home automation system for CONACYT. The project was built over a Raspberry PI, in a NodeJS server. It involved to manipulate relays via GPIO, read environment temperature and humidity through I2C and luminosity through SPI. Also, set up a to stream video from a security camera. The backend was made over NodeJS, Express, SocketIO, and MongoDB. The frontend was made with JQuery and SocketIO in the first version, after that, I made a rewrite in Vue.
           </p>
           <h3>
             React-Native Developer
-            <small>Vita</small>
+            <small>Vita (as Freelance)</small>
           </h3>
           <div>
-            May 2018 - Today
+            May 2018 - December 2019
           </div>
           <p>
-            Vita is a local company in Sinaloa, Mexico. I developed an iOS application using React-Native to help manage the company sales and rewards system. Also I wrote the web server using NodeJS + Koa, with an automated deployment system using Docker and Git Hooks Scripts. The application beta was deployed in the last month.
+            I made a rewards system over React-Native and NodeJS.
+            The backend stack was made with Koa + MongoDB, and the frontend over React-Native with Redux and Axios.
+            Deploy system with Git Hooks + Shell + Docker in a Linux server hosted on Digital Ocean.
+            Also configured NGINX with SSL auto renewal.
           </p>
         </div>
 
@@ -124,7 +139,7 @@
             English
           </h3>
           <p>
-            Not perfect but enough good to work with people in different places on the world.
+            Can keep a conversation without problems, still, have some issues explaining complex ideas.
           </p>
         </div>
 
@@ -132,34 +147,34 @@
         <h2 class="mb-4 border-bottom pb-2"> Coding Skills</h2>
         <div class="pl-4">
           <h3>
-            JavaScript
+            NodeJS
           </h3>
           <p>
-          I have a long time coding JavaScript, since the first version of <b>NodeJS</b> was released. Good knowledge on <b>ES6</b>, <b>CommonJS</b> and the <b>NodeJS</b> ecosystem. I have experience working with the three main frontend framework in the JS ecosystem <b>Vue</b>, <b>React</b> and <b>Angular</b>. Also I developed mobile applications for <b>iOS</b> using <b>React Native</b>.
+            I have a long time coding JavaScript on NodeJS, since I was 17 (5 years ago). Deep knowledge in how the NodeJS execution queue works. Even I have wrote some NodeJS modules in C++ (You can see my GDL JS talk demo about that native add-ons).
           </p>
         </div>
         <div class="pl-4">
           <h3>
-            Python
+            Frontend Development
           </h3>
           <p>
-          I am not a python expert but enough good to use the main python web frameworks <b>flask</b> and <b>django</b>, also I worked in some small IoT projects with this language.          
+            I have worked in many frontend apps using Vue, React and AngularJS, and experience with different design patterns like MVC and Flux. I have a long time making use of SASS and have a good knowledge of the power of this tool (iterators, lists, and hash maps).
           </p>
         </div>
         <div class="pl-4">
           <h3>
-            UI/UX
+            Linux Systems
           </h3>
           <p>
-            My main work at Skycatch involves to develop the user interfaces of the apps.
+            I have worked with Linux systems for a long time ago. Also automated deployments using SSH + GIT + Docker, that requires a good understanding of how SSH works, and what should be changed in the server config. Have some knowledge in SHELL to build and deploy Docker images, when repos are changed in the server.
           </p>
         </div>
         <div class="pl-4">
           <h3>
-            Linux
+            UX/UI
           </h3>
           <p>
-          I have a long time work with linux type operating systems. Using it as my desktop and server OS to deploy my applications using tools like <b>Docker</b> and <b>Git</b> 
+            I have worked in many projects refining UX/UI, also have read many books about the subject like “The Design of Everyday Things”. The reason is that I give a lot of importance that every detail I code will look as expected and really help to make the life of the user easier.
           </p>
         </div>
       </div>
