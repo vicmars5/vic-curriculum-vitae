@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-
   // This option controls if and how source maps are generated.
   // https://webpack.js.org/configuration/devtool/
   devtool: 'eval-cheap-module-source-map',
@@ -15,6 +14,7 @@ module.exports = {
 
   // https://webpack.js.org/configuration/dev-server/
   devServer: {
+    host: '0.0.0.0',
     port: 8080
   },
 

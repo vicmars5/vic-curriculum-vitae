@@ -1,6 +1,13 @@
+:root {
+  --background-light: #fafafa; 
+  --background-white: #fff;
+  --text-color: #555;
+}
+
 body {
-  background-color: #fafafa;
+  background-color: var(--background-light);
   font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -22,8 +29,13 @@ h3 {
 }
 
 p {
-  color: #555;
-  font-weight: lighter;
+  margin-bottom: .5rem;
+}
+
+p,
+ul > li {
+  color: var(--text-color);
+  font-weight: normal;
 }
 
 .container {
@@ -35,7 +47,7 @@ p {
   border-width: 0;
   
   &-header {
-    background-color: white;
+    background-color: var(--background-white);
   }
 }
 
